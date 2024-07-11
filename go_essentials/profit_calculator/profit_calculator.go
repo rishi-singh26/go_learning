@@ -9,9 +9,9 @@ func main() {
 
 	earningsBeforeTax, earningsAfterTax, ratio := calculateFiniantials(revenue, expenses, taxRate)
 
-	fmt.Println(earningsBeforeTax)
-	fmt.Println(earningsAfterTax)
-	fmt.Println(ratio)
+	fmt.Printf("%.2f\n", earningsBeforeTax)
+	fmt.Printf("%.2f\n", earningsAfterTax)
+	fmt.Printf("%.2f\n", ratio)
 }
 
 func getUserInput(text string) (inp float64) {
