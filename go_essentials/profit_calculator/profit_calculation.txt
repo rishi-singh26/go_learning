@@ -1,0 +1,3 @@
+Earnings Before Tax: 600.00
+nEarnings After Tax:  480.00
+Ratio: 1.25
